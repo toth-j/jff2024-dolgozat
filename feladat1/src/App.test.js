@@ -51,13 +51,13 @@ describe('Hibakezelés', () => {
   test('Hibaüzenet hibás pontszám esetén', async () => {
     typeintoForm({ nev: "aaa", pont: "" })
     clickOnSubmitButton();
-    expect(await screen.findByText("A pont 1 és 100 közötti szám lehet!")).toBeInTheDocument()
+    expect(await screen.findByText("A pont 0 és 100 közötti szám lehet!")).toBeInTheDocument()
     typeintoForm({ nev: "aaa", pont: "-1" })
     clickOnSubmitButton();
-    expect(await screen.findByText("A pont 1 és 100 közötti szám lehet!")).toBeInTheDocument()
+    expect(await screen.findByText("A pont 0 és 100 közötti szám lehet!")).toBeInTheDocument()
     typeintoForm({ nev: "aaa", pont: "101" })
     clickOnSubmitButton();
-    expect(await screen.findByText("A pont 1 és 100 közötti szám lehet!")).toBeInTheDocument()
+    expect(await screen.findByText("A pont 0 és 100 közötti szám lehet!")).toBeInTheDocument()
   })
 })
 describe('Lista', () => {

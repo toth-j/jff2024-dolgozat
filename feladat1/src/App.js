@@ -14,7 +14,7 @@ function App() {
       return
     }
     if (pont === '' || pont < 0 || pont > 100) {
-      setHiba("A pont 1 és 100 közötti szám lehet!")
+      setHiba("A pont 0 és 100 közötti szám lehet!")
       return
     }
     setEredmenyek([...eredmenyek, { nev, pont }])
@@ -55,13 +55,14 @@ function App() {
         <button
           type='submit'
           className='btn btn-primary mb-3'
-          onClick={handleSubmit}>
+          onClick={handleSubmit}
+        >
           Hozzáadás
         </button>
       </form>
       <ul>
         {eredmenyek.map(eredmeny => (
-          <li key={nev + pont} className={eredmeny.pont <= 50 ? 'text-danger' : ''}>
+          <li key={eredmeny.nev + eredmeny.pont} className={eredmeny.pont <= 50 ? 'text-danger' : ''}>
             {eredmeny.nev}: {eredmeny.pont}
           </li>
         ))}
