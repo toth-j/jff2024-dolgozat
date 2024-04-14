@@ -53,11 +53,11 @@ Készítsen egy olyan alkalmazást, amely induláskor és egy gomb megnyomásako
 
 ![minta3](minta3.png)
 
+A címet, a képet és a gombot egy Kutya nevű komponenssel jelenítse meg, amelynek adja át a kép címét és egy függvényt, amely lekéri a következő képet!
+
 Az alkalmazást SCSS segítségével úgy formázza meg, hogy felhasználja a kapott _colors.scss fájlban megadott színeket! (hatter: oldal háttere, betu: cím betűszíne, gomb háttere, keret: kép szegélye)
 
 A szöveg Verdana vagy az alapértelmezett talpatlan betűtípussal jelenjen meg!
-
-A címet, a képet és a gombot egy Kutya nevű komponenssel jelenítse meg, amelynek adja át a kép címét és egy függvényt, amely lekéri a következő képet!
 
 A kép a teljes szélesség 90%-át, legfeljebb 500 képpontot foglaljon el! A kép szegélye 12 px vastag legyen!
 
