@@ -23,13 +23,15 @@ Ha jók az adatok, akkor a Hozzáadás gomb megnyomásakor adja hozzá őket a l
 
 ## 2. feladat
 
-Készítsen Single Page Application-t, amely három oldalból áll, úgy hogy a tesztek lefussanak! 
+Készítsen Single Page Application-t, amely három oldalból áll, úgy hogy a tesztek lefussanak!
 
 Az alkalmazást Bootstrap használatával formázza! Az oldalak tartalma egy-egy konténerben legyen!
 
 Minden oldal tetején legyen fejléc, amelyben első szintű címsorként a "Balatoni kilátók" cím szerepeljen!
 
 Alatta minden oldalon egy olyan navigáció legyen, amely mindhárom oldal hivatkozását tartalmazza! A navigáció háttere sötét, betűszíne világos legyen, és a hivatkozások legyenek középre igazítva!
+
+Az oldalak alján legyen egy szürke hátterű lábléc, amely a "Készítette:" szöveggel kezdődik, és a készítő nevével folytatódik!
 
 A kezdőlapon a feladat2.txt fájlban található három bekezdés legyen:
 
