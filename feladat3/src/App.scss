@@ -1,0 +1,26 @@
+@import './colors';
+
+body {
+  background-color: $hatter;
+  font-family: Verdana, sans-serif;
+  color: $betu;
+  text-align: center;
+}
+
+.dog-image {
+  border: 12px solid $keret;
+  width: 90%;
+  max-width: 500px;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 24px;
+  border-radius: 8px;
+  border: none;
+  background: $betu;
+  color: #fff;
+}
