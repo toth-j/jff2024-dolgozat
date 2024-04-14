@@ -1,7 +1,7 @@
 function Kilatok() {
   return (
     <main className="container">
-      <table className="table striped-table">
+      <table className="table table-striped">
         <thead>
           <tr>
             <th>Város</th>

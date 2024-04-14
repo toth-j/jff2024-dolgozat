@@ -31,15 +31,15 @@ Minden oldal tetején legyen fejléc, amelyben első szintű címsorként a "Bal
 
 Alatta minden oldalon egy olyan navigáció legyen, amely mindhárom oldal hivatkozását tartalmazza! A navigáció háttere sötét, betűszíne világos legyen, és a hivatkozások legyenek középre igazítva!
 
-A kezdőlapon a feladat2.txt fájlban található három bekezdés legyen!
+A kezdőlapon a feladat2.txt fájlban található három bekezdés legyen:
 
 ![minta2a](minta2a.png)
 
-A Kilátók oldalon (amelynek címe /kilatok legyen) a városok és a kilátók nevei egy táblázatba kerüljenek!
+A Kilátók oldalon (amelynek címe /kilatok legyen) a városok és a kilátók nevei egy csíkozott táblázatba kerüljenek:
 
 ![minta2b](minta2b.png)
 
-A Képek oldalon (amelynek címe /kepek legyen) a public/kepek mappában lévő képek jelenjenek meg! A képek közepes mérettől felfelé két oszlopban, alatta egy oszlopban jelenjenek meg!
+A Képek oldalon (amelynek címe /kepek legyen) a public/kepek mappában lévő képek jelenjenek meg! A képek közepes mérettől felfelé két oszlopban, alatta egy oszlopban jelenjenek meg:
 
 ![alt text](minta2c.png)
 
@@ -49,7 +49,7 @@ A Képek oldalon (amelynek címe /kepek legyen) a public/kepek mappában lévő 
 
 A [https://dog.ceo/api/breeds/image/random](https://dog.ceo/api/breeds/image/random) címen lévő API egy véletlenül választott kutya kép címét adja vissza egy objektumban.
 
-Készítsen egy olyan alkalmazást, amely induláskor és egy gomb megnyomásakor lekér egy képet, és megjeleníti azt a minta szerint!
+Készítsen egy olyan alkalmazást, amely induláskor és egy gomb megnyomásakor lekér egy képet, és megjeleníti azt a minta szerint:
 
 ![minta3](minta3.png)
 
