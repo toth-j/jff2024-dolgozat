@@ -17,12 +17,10 @@ function App() {
         <Link className='nav-link link-light' to='/kepek'>Képek</Link>
       </nav>
       <Routes>
-        <Route>
-          <Route path='/' element={<Home />} />
-          <Route path="/kilatok" element={<Kilatok />} />
-          <Route path="/kepek" element={<Kepek />} />
-          <Route path="*" element={<NoPage />} />
-        </Route>
+        <Route path='/' element={<Home />} />
+        <Route path="/kilatok" element={<Kilatok />} />
+        <Route path="/kepek" element={<Kepek />} />
+        <Route path="*" element={<NoPage />} />
       </Routes>
       <footer className="bg-secondary text-light">
         <p className="text-center">Készítette: Tóth József</p>
